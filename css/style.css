@@ -1,0 +1,263 @@
+body {
+    width: fit-content;
+}
+
+
+
+#body {
+    padding: 20px;
+    border: 0px 20px;
+    text-align: center;
+    
+}
+
+#contact {
+    background-color: rgba(194, 212, 247, 255);
+    padding: 20px 70px;
+    border: 70px;
+    text-align: center;
+}
+
+#content {
+    background-color: rgba(194, 212, 247, 255);
+    padding: 50px 70px;
+    border: 70px;
+}
+
+#round_box {
+    border-radius: 20px;
+    background-color: white;
+    padding: auto;
+    width: 200px;
+    height: auto;
+    border: none;
+}
+
+#text_box {
+    border: none;
+    width: 270px;
+}
+
+#message {
+    border: none;
+    border-radius: 20px;
+    text-indent: 10px;
+    padding: 10px;
+}
+
+input::-webkit-input-placeholder {
+    color: black; /*Change the placeholder color*/
+    opacity: 0.3; /*Change the opacity between 0 and 1*/
+}
+
+.side_by_side {
+    border: none;
+    display: flex;
+    border: 10px;
+    padding: none;
+    text-align: center;
+}
+
+.side_by_side #text_box {
+    width: 200px;
+    height: 35px;
+    border: none;
+}
+
+.right {
+    float: right;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    padding: 0 15px;
+}
+
+#complete_circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    text-align: center;
+}
+
+#complete_circle_big {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: none;
+    text-align: center;
+}
+
+#send {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: auto;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+    padding: 0 25px;
+}
+
+h5{
+    text-align: left;
+    padding: 20px 120px;
+    border: 0 150px;
+}
+
+.logo {
+    margin-left: 60px;
+    width: 10%;
+    height: 10%;
+}
+
+.header_gap {
+    margin-left: 200px;
+}
+
+.header_list {
+    margin-left: 80px;
+}
+
+
+/* starttrip section */
+
+.StartTrip {
+    background-color: rgb(243, 240, 240);
+    margin: auto;
+    padding: auto;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.endtrip_button {
+    margin-top: 100px;
+} 
+
+/* end starttrip section */
+
+
+
+/* singup option */
+
+#signup_option {
+    text-align: center;
+    margin: auto, 50px;
+
+}
+
+/* end signup option */
+
+/* faq container */
+
+.faq_container {
+    background-color: #f8f4f4;
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    height: auto;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }  
+
+
+
+/* end faq container */
+
+.footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+   
+
+}
+
+.container_footer{
+   margin-top: 50px;
+
+  
+  
+}
+
+.footer_logo {
+    margin-top: 50px;
+}
+
+/* myconnection style */
+
+#online_circle {
+    background-color: green;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    border: none;
+    text-align: center;
+    margin: 10px;
+}
+
+#online_status {
+    background-color: green;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: none;
+    text-align: center;
+    margin: 10px;
+}
+
+/* end myconnection style */
+
+/* index style */
+
+.map_live {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+
+.map_live .index_head{
+    background-color: #000;
+    color: #fff;
+    margin: 20px 0px;
+    height: 50px;
+    text-align: center;
+}
+
+.index_body {
+    margin: 40px 0px;
+    
+}
+
+/* end index style */
